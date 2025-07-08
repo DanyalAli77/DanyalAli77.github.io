@@ -16,7 +16,7 @@ const CONFIG = {
       header: 'Github Projects',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
+        sortBy: 'updated', // Sort projects by 'stars' or 'updated'
         limit: 4, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
@@ -86,41 +86,32 @@ const CONFIG = {
       ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Apple',
+      position: 'Specialist',
+      from: 'November 2022',
       to: 'Present',
-      companyLink: 'https://example.com',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'GameXP',
+      position: 'Web Developer',
+      from: 'July 2022',
+      to: 'November 2022',
+      companyLink: 'https://gamexp.co.uk/',
     },
   ],
-  certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
-    },
-  ],
+  
   educations: [
     {
       institution: 'University of Dundee',
       degree: 'Bsc (Hons) in Computing Science',
-      from: '',
-      to: '2020',
+      graduated: '2020',
     },
   ],
   
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: '', // medium | dev
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
