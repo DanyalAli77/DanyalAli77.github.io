@@ -53,7 +53,7 @@ const CONFIG = {
   },
   seo: { title: 'Portfolio of Danyal Ali', description: '', imageURL: '' },
   social: {
-    linkedin: 'danyal-ali-23aa5913a',
+    linkedin: 'danyal-ali77',
     x: '',
     mastodon: '',
     researchGate: '',
