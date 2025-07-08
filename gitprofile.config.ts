@@ -76,7 +76,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      '<a href=https://github.com/DanyalAli77/DanyalAli77.github.io/blob/main/DANYAL%20ALI%20CV.pdf </a>', // Empty fileUrl will hide the `Download Resume` button.
+      '<a href=https://github.com/DanyalAli77/DanyalAli77.github.io/blob/main/src/files/DANYAL%20ALI%20CV.pdf </a>', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'C++',
